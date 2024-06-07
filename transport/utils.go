@@ -150,7 +150,7 @@ func StringToSpec(ja3 string, userAgent string, tlsExtensions *TLSExtensions, fo
 	}
 	//surus 07/06/24
 	//if parsedUserAgent == chrome && !tlsExtensions.NotUsedGREASE {
-		exts = append(exts, &utls.UtlsGREASEExtension{})
+		//exts = append(exts, &utls.UtlsGREASEExtension{})
 	//}
 
 	// build CipherSuites
