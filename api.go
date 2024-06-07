@@ -5,7 +5,7 @@ import (
 	"github.com/wangluozhe/requests/url"
 	"net/http"
 )
-
+//21-41
 func Request(method, rawurl string, req *url.Request) (*models.Response, error) {
 	session := NewSession()
 	return session.Request(method, rawurl, req)
