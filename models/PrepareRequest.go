@@ -8,7 +8,7 @@ import (
 	"github.com/wangluozhe/chttp"
 	"github.com/wangluozhe/chttp/cookiejar"
 	"github.com/galerts/requests/url"
-	"github.com/galerts/requests/utils"
+	"github.com/wangluozhe/requests/utils"
 	"io"
 	"io/ioutil"
 	"strconv"
